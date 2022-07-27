@@ -8,4 +8,16 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto';
+    letter-spacing: 0.05em;
 }
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/title';
+@import 'blocks/button';
+@import 'blocks/promo';
+@import 'base/media';

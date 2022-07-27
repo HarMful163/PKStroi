@@ -1,0 +1,19 @@
+@mixin rec {
+    &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 8.5px;
+        right: 0;
+        border: 3.5px solid transparent;
+        border-top: 4.5px solid $main-orange;
+    }
+}
+
+@mixin colorToOrange {
+    &:hover {
+        cursor: pointer;
+        color: $main-orange;
+        transition: all 0.7s ease;
+    }
+}
