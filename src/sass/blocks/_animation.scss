@@ -1,0 +1,113 @@
+.moveDown {
+    animation: moveDown 1s 1;
+    animation-fill-mode: forwards;
+    transition: 2s animation;
+    @keyframes moveDown {
+        0% {
+            opacity: 0;
+            transform: translateY(-100%);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
+    }
+}
+
+.moveUp {
+    animation: moveUp 1s 1;
+    animation-fill-mode: forwards;
+    transition: 2s animation;
+    @keyframes moveUp {
+        0% {
+            opacity: 0;
+            transform: translateY(200%);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0%);
+        }
+    }
+}
+
+.moveLeft {
+    animation: moveLeft 1s 1;
+    animation-fill-mode: forwards;
+    transition: 2s animation;
+    @keyframes moveLeft {
+        0% {
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0%);
+        }
+    }
+}
+
+.moveRight {
+    animation: moveRight 1s 1;
+    animation-fill-mode: forwards;
+    transition: 2s animation;
+    @keyframes moveRight {
+        0% {
+            opacity: 0;
+            transform: translateX(200%);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0%);
+        }
+    }
+}
+
+.opacity {
+    animation: opacity 1s 1;
+    animation-fill-mode: forwards;
+    transition: 2s animation;
+    @keyframes opacity {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+}
+
+@keyframes upDown {
+    0% {
+        top: 0;
+    }
+    10% {
+        top: -5px;
+    }
+    20% {
+        top: 0;
+    }
+    30% {
+        top: -10px;
+    }
+    40% {
+        top: 0;
+    }
+    50% {
+        top: 5;
+    }
+    60% {
+        top: 0;
+    }
+    70% {
+        top: 10px;
+    }
+    80% {
+        top: 0;
+    }
+    90% {
+        top: 0;
+    }
+    100% {
+        top: 0;
+    }
+}
