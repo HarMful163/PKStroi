@@ -111,3 +111,23 @@
         top: 0;
     }
 }
+
+
+@keyframes puls {
+    0% {
+        perspective: 600px;
+        transform: rotate(0deg);
+    }
+    25% {
+        perspective: 600px;
+        transform: rotate(-1deg);
+    }
+    50% {
+        perspective: 600px;
+        transform: rotate(1deg);
+    }
+    100% {
+        perspective: 600px;
+        transform: rotate(0deg);
+    }
+}
