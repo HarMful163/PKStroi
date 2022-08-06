@@ -5,10 +5,6 @@
 }
 
 @media (max-width: 1440px) {
-    .container {
-        width: 100%;
-        padding: 0 10px;
-    }
     .header {
         &__wrapper {
             justify-content: space-around;
@@ -26,9 +22,19 @@
             margin-top: 80px;
         }
     }
+    .news {
+        &__link {
+            width: 80%;
+            font-size: 60px;
+        }
+    }
 }
 
 @media (max-width: 1200px) { //десктопы/планшеты/ноутбуки
+    .container {
+        padding: 0 10px;
+        width: 100%;
+    }
     .header {
         &__hamburger {
             display: flex;
@@ -153,6 +159,22 @@
             font-size: 16px;
         }
     }
+    .news {
+        &__arrow {
+            &-left, &-right {
+                width: 70px;
+                height: 70px;
+                right: 1%;
+            }
+            &-left {
+                left: 1%;
+            }
+        }
+        &__link {
+            width: 80%;
+            font-size: 50px;
+        }
+    }
 }
 
 @media (max-width: 768px) { //смартфоны/планшеты
@@ -219,12 +241,21 @@
             line-height: 130%;
         }
     }
+    .news {
+        &__arrow {
+            &-left, &-right {
+                display: none;
+            }
+        }
+        &__link {
+            width: 100%;
+            font-size: 22px;
+        }
+    }
 }
 
-// @media (max-width: 576px) {
-    
-// }
-
-// @media (max-width: 480px) { //телефоны/смартфоны
-
-// }
+@media (max-width: 400px) { //телефоны/смартфоны
+    .promo {
+        background: url('../img/promo/promo_mob.jpg') no-repeat 50%/cover;
+    }
+}
