@@ -1,0 +1,22 @@
+.button {
+    display: block;
+    width: 200px;
+    height: 60px;
+    color: #000;
+    cursor: pointer;
+    background: linear-gradient(92.66deg, #FFF583 7.08%, #DDB947 100%);
+    box-shadow: 1px 1px 20px #000000;
+    border-radius: 53px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+        background: linear-gradient(98.53deg, #EBBD5F 33.7%, #D69204 92.93%);
+        cursor: pointer;
+    }
+    &:active {
+        color: $main-orange;
+        background: $main-blue;
+    }
+}
