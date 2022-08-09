@@ -39,17 +39,7 @@
         justify-content: space-between;
     }
     &__name {
-        &::before {
-            content: '';
-            position: absolute;
-            top: 50%;
-            left: 0;
-            transform: translateY(-50%);
-            width: 5px;
-            height: 5px;
-            border-radius: 50%;
-            background-color: $main-orange;
-        }
+        @include sircle;
     }
     &__price {
         color: $main-orange;

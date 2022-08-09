@@ -1,6 +1,10 @@
 .title {
     font-weight: 400;
     color: #FFFFFF;
+    &-fz14 {
+        font-size: 14px;
+        line-height: 17px;
+    }
     &-fz16 {
         font-size: 16px;
         line-height: 19px;
